@@ -1,0 +1,249 @@
+/* body{
+    background-image: linear-gradient(to right,red,blue,white);
+}
+
+body{
+    background-image:url('image1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+}
+
+#box1{
+    background-color: red;
+    /* visibility: hidden; */
+    /* display:none; */
+    /* position: relative;
+    left: 300px; */
+
+    /* static-return to same place
+    relative-mov to left or right as we give 
+    absolute-*/ 
+
+/* } */
+
+/* #box2{
+    background-color: blue;
+}
+
+#box3{
+    background-color:green; */
+/* } */
+
+/* #div{
+    border: 2px solid black;
+    padding: 15px;
+    margin:30px;
+} */
+ 
+
+/* .container{
+    width: 300px;
+    height: 250px;
+    background-color: aqua;
+    position: relative;
+} */
+
+/* .box{
+    width: 100px;
+    height: 70px;
+    background-color: blue;
+    position: absolute; */
+    /* position: relative;  */
+    /* right: 20px; */
+    /* right: 0px; */
+    /* top:50px;  */
+    /* bottom: 0; */
+/* }    */
+
+
+
+
+/*.container{
+  border: 1px solid gray;
+  text-align: center;
+  position: fixed;
+  /* position: sticky; 
+  top: 0px;
+  width: 100%;
+}
+
+.box1,.box2{
+    width: 100%;
+    height: 700px;
+}
+
+.box1{
+    background-color: beige;
+
+}
+.box2{
+    background-color: rgb(194,194,40);
+}*/
+
+
+/* blobk element --><p>,<br>,,<h>
+inline element --><a,<img,input */
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    /* display: inline;
+    display: block; */
+    display: inline-block;
+}
+
+
+.flex-container{
+    width: 100%;
+    height: 450px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+
+/* grid */
+
+
+.grid-container{
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    grid-template-rows: 500px 500px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+
+.box2{
+    height: 100%;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+
+.overflow{
+    width: 300px;
+    height: 250px;
+    background-color: aquamarine;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: visible; */
+    overflow: auto;
+}
+
+
+.red{
+    width: 300px;
+    height: 250px;
+    background-color: red;
+    position: relative;
+}
+
+
+.green{
+    width: 100px;
+    height: 70px;
+    background-color: green;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+}
+
+
+.blue{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+}
+
+
+.float{
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    float: right;
+}
+
+
+.float h1{
+    /* float: right; */
+    float: inherit;
+    /* float: none; */
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: antiquewhite;
+    width: 200px;
+}
+
+/* li{
+    padding: 10px;
+} */
+
+li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 20px;
+}
+
+ li a:hover{
+    background-color: grey;
+    color: white;
+    color: aliceblue;
+ }
+
+/* li a:hover{
+    color: aliceblue;
+} */
+
+.about{
+    width: 100%;
+    height: 600px;
+    background-color: aquamarine;
+}
+.skills{
+    width: 100%;
+    height: 500px;
+    background-color: bisque;
+}
+.contact{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(150,95,24);
+}
+
+
+
+
+

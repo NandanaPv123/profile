@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+     /*descendant selector */
+    .container p{
+        background-color:aqua;
+     }
+    /*child selector */
+
+     .container>p{
+        background-color:aqua;
+
+    /*adjacent sibiling selector */
+     }
+     .container+p{
+        background-color:aqua;
+
+    /*general sibiling selector */
+     }
+     .container~p{
+        background-color:aqua;
+     }
+
+     a:link{
+        color: red;
+     }
+     a:visited{
+        color: green;
+     }
+     a:hover{
+        color:yellow;
+
+     }
+     a:active{
+        background-color: black;
+     }
+     img{
+        opacity:0.5;
+     }
+     img:hover{
+        opacity:1;
+     }
+     p::first-line{
+        color:blue;
+     }
+     p::first-letter{
+        color:black;
+     }
+     h1{
+        color:blue;
+     }
+     li:first-child{
+        color:red;
+     }
+     input:focus{
+        background-color: yellow;
+     }
+     #para1::before{
+        content: "before";
+     }
+     #para1::after{
+        content: "*******";
+     }
+
+     ::selection{
+        background-color: bisque;
+     }
+
+     ::marker{
+        color:rgb(144,144,168);
+     }
+
+
+     </style>
+     
+
+
+
+    <h1 id="head1">CSS selectors</h1>
+    <ul>
+        <li>Element selector-tagname,id,class,name</li>
+        <li>Combinators
+            <ul>
+                <li>Descendant selector(space)</li>
+                <li>Child selector(>)</li>
+                <li>Adjacent sibiling selector(+)</li>
+                <li>General sibiling selector(~)</li>
+            </ul>
+        </li>
+        <li>Pseudo-class selectors</li>
+            <ul>
+                <li>Link</li>
+                <li>visited</li>
+                <li>Hover</li>
+                <li>Active</li>
+                <li>Focus</li>
+                <li>first-child</li>
+            </ul>
+        <li>Pseudo-element selectors</li>
+            <ul>
+                <li>first-line</li>
+                <li>first-letter</li>
+                <li>before</li>
+                <li>after</li>
+                <li>selection</li>
+                <li>marker</li>
+            </ul>
+    </ul>
+
+    <div id="box1">
+        <h1>Heading</h1>
+        <p><span id="span1">B.Tech Information Technology graduate</span> and Python Full Stack Developer skilled in developing scalable web
+applications and RESTful APIs.Proficient in Python,Django and modern frontend technologies with hands-on experience
+designing robust backend architectures,integrating dynamic user interfaces and managing relational databases.</p>
+    </div>
+
+    <span>inline element</span>
+
+    <div class="container">
+        <p>paragraph1</p>
+        <section>
+            <p>paragraph2</p>
+        </section>
+        <p>paragraph3</p>
+    </div>
+
+    <p>paragraph4</p>
+    <p>paragraph5</p>
+
+    <div class="container">
+        <p>paragraph6</p>
+        <p>paragraph7</p>
+    </div>
+
+    <a href="https://flipkart.com/">HTML</a>
+    <img scr='' alt="">
+
+
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ul>
+<input type="text">
+
+<p id="para1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae mollitia vel, esse exercitationem laborum fuga accusantium blanditiis cumque, at, saepe iste asperiores ipsa inventore eveniet. Neque qui corrupti iure expedita!</p>
+</body>
+</html>
